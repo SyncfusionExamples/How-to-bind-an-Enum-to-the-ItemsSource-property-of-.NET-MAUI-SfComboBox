@@ -1,15 +1,15 @@
 # How to bind an Enum to the ItemsSource property of .NET MAUI SfComboBox
 This repository contains sample about How to bind an Enum to the ItemsSource property of SfComboBox(.NET MAUI)
 
-#   Getting Started with .NET MAUI ComboBox (SfComboBox)
+##   Getting Started with .NET MAUI ComboBox (SfComboBox)
 
-##  Adding a .NET MAUI ComboBox reference
+###  Adding a .NET MAUI ComboBox reference
 Syncfusion .NET MAUI controls are available in Nuget.org. To add .NET MAUI ComboBox to your project, open the NuGet package manager in Visual Studio, search for Syncfusion.Maui.Inputs and then install it.
 
-#   Create a Simple .NET MAUI ComboBox
+##   Create a Simple .NET MAUI ComboBox
 The .NET MAUI ComboBox control is configured entirely in C# code or by using XAML markup. The following steps explain how to create a .NET MAUI ComboBox (SfComboBox) and configure its elements:
 
-##  Adding the .NET MAUI ComboBox control
+###  Adding the .NET MAUI ComboBox control
 Step 1: Add the NuGet to the project as discussed in the above reference section.
 
 Step 2: Add the namespace as shown in the following code sample:
@@ -29,7 +29,7 @@ Step 3: Set the control to content in ContentPage.
     <editors:SfComboBox x:Name="comboBox" />
 </ContentPage.Content>
 ```
-#   Bind an Enum to the ItemsSource property of .NET MAUI SfComboBox
+##   Bind an Enum to the ItemsSource property of .NET MAUI SfComboBox
 
 **[XAML]**
 
@@ -44,7 +44,7 @@ Step 3: Set the control to content in ContentPage.
                     BorderColor="Green"
                     ItemsSource="{Binding SocialMedias}" />
 ```
-##  ViewModel
+###  ViewModel
 
 **[C#]**
 ```
