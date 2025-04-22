@@ -1,6 +1,5 @@
 ﻿namespace ComboBoxBlank;
 using Syncfusion.Maui.Core.Hosting;
-using Syncfusion.Maui.ListView.Hosting;
 
 public static class MauiProgram
 {
@@ -10,7 +9,6 @@ public static class MauiProgram
 		builder
 			.UseMauiApp<App>()
             .ConfigureSyncfusionCore()
-            .ConfigureSyncfusionListView()
             .ConfigureFonts(fonts =>
 			{
 				fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");

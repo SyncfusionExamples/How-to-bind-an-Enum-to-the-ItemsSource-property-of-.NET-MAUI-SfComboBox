@@ -13,6 +13,6 @@
     <editors:SfComboBox x:Name="comboBox" 
                     WidthRequest="250"
                     HeightRequest = "70"
-                    BorderColor="Green"
+                    Stroke="Green"
                     ItemsSource="{Binding SocialMedias}" />
 </ContentPage>
